@@ -1,0 +1,10 @@
+variable,test,p
+Soil_Moisture,KS sample vs pool,0.5750951557314877
+Field_Area_hectare,KS sample vs pool,0.7183579576108051
+Temperature_C,KS sample vs pool,0.02712181103824243
+Rainfall_mm,KS sample vs pool,0.6030580515731873
+Crop_Type,chi2 sample vs pool,0.2493390481370535
+Soil_Type,chi2 sample vs pool,0.12903970285822525
+Irrigation_Type,chi2 sample vs pool,0.7716048517851108
+Irrigation_Need,chi2 sample vs pool,0.8934897885235638
+Mulching_Used,chi2 sample vs pool,0.15772977212319741

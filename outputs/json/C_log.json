@@ -1,0 +1,51 @@
+{
+  "n_trainval": 8500,
+  "n_test": 1500,
+  "test_class_counts": [
+    879,
+    570,
+    51
+  ],
+  "versions": {
+    "python": "3.10.11",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.6.0",
+    "xgboost": "3.1.2",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "optuna": "5.0.0",
+    "shap": "0.48.0",
+    "pymoo": "0.6.2",
+    "matplotlib": "3.10.6"
+  },
+  "selected_by_cv_macro_f1": "CatBoost",
+  "cv_ranking_tuned": {
+    "CatBoost": 0.99898,
+    "GradientBoosting": 0.99402,
+    "LightGBM": 0.99232,
+    "XGBoost": 0.99036,
+    "DecisionTree": 0.9883,
+    "RandomForest": 0.98128,
+    "MLP_ANN": 0.87301,
+    "SVM_RBF": 0.78942,
+    "LogisticRegression": 0.72612
+  },
+  "friedman_chi2": 318.9574002357298,
+  "friedman_p": 3.7794821529612646e-64,
+  "friedman_blocks": 50,
+  "mean_ranks": {
+    "CatBoost": 2.59,
+    "GradientBoosting": 2.83,
+    "LightGBM": 2.83,
+    "XGBoost": 3.72,
+    "DecisionTree": 3.8,
+    "RandomForest": 5.23,
+    "MLP_ANN": 7.0,
+    "SVM_RBF": 8.0,
+    "LogisticRegression": 9.0
+  },
+  "best_repcv": "CatBoost"
+}

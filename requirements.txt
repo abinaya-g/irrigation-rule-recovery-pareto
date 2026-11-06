@@ -1,0 +1,13 @@
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.6.0
+xgboost==3.1.2
+lightgbm==4.6.0
+catboost==1.2.10
+optuna==5.0.0
+shap==0.48.0
+pymoo==0.6.2
+matplotlib==3.10.6
+joblib
+openpyxl

@@ -1,0 +1,81 @@
+{
+  "best_params": {
+    "LogisticRegression": {
+      "C": 3.8229766253091793,
+      "cw": null
+    },
+    "DecisionTree": {
+      "max_depth": 26,
+      "min_samples_leaf": 2,
+      "criterion": "entropy",
+      "cw": "balanced"
+    },
+    "RandomForest": {
+      "n_estimators": 221,
+      "max_depth": 11,
+      "min_samples_leaf": 3,
+      "max_features": 0.5,
+      "cw": "balanced"
+    },
+    "SVM_RBF": {
+      "C": 2.1278145661193784,
+      "gamma": 0.05579206739480247,
+      "cw": "balanced"
+    },
+    "GradientBoosting": {
+      "n_estimators": 386,
+      "learning_rate": 0.20823839815189443,
+      "max_depth": 3,
+      "subsample": 0.6639418380519514,
+      "cw": "balanced"
+    },
+    "XGBoost": {
+      "n_estimators": 241,
+      "max_depth": 6,
+      "learning_rate": 0.2636065772460408,
+      "subsample": 0.9925766118175505,
+      "colsample_bytree": 0.8805660200359534,
+      "min_child_weight": 4,
+      "reg_lambda": 0.0025416121460930287,
+      "cw": "balanced"
+    },
+    "LightGBM": {
+      "n_estimators": 340,
+      "learning_rate": 0.27934878597681423,
+      "num_leaves": 13,
+      "min_child_samples": 45,
+      "subsample": 0.9779462447054581,
+      "colsample_bytree": 0.8736075484237723,
+      "reg_lambda": 0.00782916003239826,
+      "cw": "balanced"
+    },
+    "CatBoost": {
+      "iterations": 253,
+      "depth": 7,
+      "learning_rate": 0.16958457688579284,
+      "l2_leaf_reg": 6.7103130185748325,
+      "cw": "balanced"
+    },
+    "MLP_ANN": {
+      "hidden": [
+        128,
+        64
+      ],
+      "alpha": 0.09802590738298436,
+      "lr": 0.009500273192355514,
+      "max_iter": 1000
+    }
+  },
+  "tuning_seconds": {
+    "LogisticRegression": 6.017487525939941,
+    "DecisionTree": 5.748270034790039,
+    "RandomForest": 2155.1583049297333,
+    "SVM_RBF": 127.1278784275055,
+    "GradientBoosting": 1416.3126859664917,
+    "XGBoost": 90.40487432479858,
+    "LightGBM": 61.75990033149719,
+    "CatBoost": 2146.328576564789,
+    "MLP_ANN": 367.2149090766907
+  },
+  "n_trials_per_model": 30
+}

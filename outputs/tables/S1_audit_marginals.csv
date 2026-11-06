@@ -1,0 +1,20 @@
+feature,type,min,max,mean,sd,test,p
+Soil_pH,numeric,4.8,8.2,6.487857000000001,0.9799628004470505,"KS vs Uniform(min,max)",0.04408260502861705
+Soil_Moisture,numeric,8.0,65.0,36.969207,16.430844576786114,"KS vs Uniform(min,max)",0.008295184939314219
+Organic_Carbon,numeric,0.3,1.6,0.944731,0.3724055534341867,"KS vs Uniform(min,max)",0.009689251121011362
+Electrical_Conductivity,numeric,0.1,3.5,1.7919629999999998,0.984201707949744,"KS vs Uniform(min,max)",0.3969464845109758
+Temperature_C,numeric,12.0,42.0,26.991422999999998,8.664074448184028,"KS vs Uniform(min,max)",0.8484821982318688
+Humidity,numeric,25.0,95.0,60.080339,20.187973365891416,"KS vs Uniform(min,max)",0.8751346020411535
+Rainfall_mm,numeric,0.38,2499.69,1252.4994199999999,715.5822010139747,"KS vs Uniform(min,max)",0.48430282203752206
+Sunlight_Hours,numeric,4.0,11.0,7.518538,2.0160769179696287,"KS vs Uniform(min,max)",0.16560850258646598
+Wind_Speed_kmh,numeric,0.5,20.0,10.163545000000001,5.670923427469906,"KS vs Uniform(min,max)",0.09906068933671341
+Field_Area_hectare,numeric,0.3,15.0,7.598023999999999,4.233919456345418,"KS vs Uniform(min,max)",0.168948400559088
+Previous_Irrigation_mm,numeric,0.02,119.99,59.864121999999995,34.4837219809185,"KS vs Uniform(min,max)",0.8396064601898346
+Soil_Type,categorical (4),0.2477,0.2536,,,chi2 vs equal frequencies,0.8473610523070446
+Crop_Type,categorical (6),0.1595,0.1711,,,chi2 vs equal frequencies,0.4370281829752177
+Crop_Growth_Stage,categorical (4),0.2433,0.2581,,,chi2 vs equal frequencies,0.16557873951999735
+Season,categorical (3),0.3255,0.3383,,,chi2 vs equal frequencies,0.24324162210734934
+Irrigation_Type,categorical (4),0.2467,0.2527,,,chi2 vs equal frequencies,0.852908132056444
+Water_Source,categorical (4),0.2462,0.2528,,,chi2 vs equal frequencies,0.8103489637666659
+Mulching_Used,categorical (2),0.4987,0.5013,,,chi2 vs equal frequencies,0.794863773596479
+Region,categorical (5),0.19,0.2102,,,chi2 vs equal frequencies,0.03350679978270424

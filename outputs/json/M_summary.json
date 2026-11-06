@@ -1,0 +1,80 @@
+{
+  "n_scenarios": 150,
+  "share_dstar_within_[5,80]": 0.5666666666666667,
+  "share_dstar_below_5mm(no irrigation needed)": 0.41333333333333333,
+  "share_dstar_above_80": 0.02,
+  "share_class_depth_dominated": 0.72,
+  "mean_excess_water_class_m3": 998.9893891059262,
+  "share_class_depth_with_residual_risk>0": 0.28,
+  "mean_R_class": 0.03892287778632831,
+  "share_window_contains_dstar": 0.31333333333333335,
+  "spearman_pred_class_vs_dstar": [
+    0.3620274948311511,
+    5.308625915894975e-06
+  ],
+  "classifier_test_acc_on_150": 1.0,
+  "d_star_by_pred_class_median": {
+    "0": 4.4133749999999985,
+    "1": 23.643199999999997,
+    "2": 67.78743999999999
+  },
+  "d_star_by_pred_class_IQR": {
+    "0.25": {
+      "0": 0.0,
+      "1": 1.3194999999999861,
+      "2": 49.744499999999995
+    },
+    "0.75": {
+      "0": 20.365537500000002,
+      "1": 42.7442,
+      "2": 75.21219999999998
+    }
+  },
+  "corr_water_energy_within_scenario": "exactly 1 (E = kappa*V, kappa constant per scenario)",
+  "kWh_per_m3_range": [
+    0.020961538461538462,
+    0.3144230769230769
+  ],
+  "benchmark_wallclock_s": 691.6884706020355,
+  "n_nondegenerate_scenarios_for_benchmark": 88,
+  "exact_enumeration_s_per_scenario": 0.0023013989130655924,
+  "mc_share_class_depth_dominated": 0.7545,
+  "mc_by_map_share_dominated": {
+    "0": 0.6918335901386748,
+    "1": 0.7421203438395415,
+    "2": 0.8300153139356815
+  },
+  "mc_by_map_mean_R_class": {
+    "0": 0.06119292689849048,
+    "1": 0.03845154461527316,
+    "2": 0.02210452479441815
+  },
+  "mc_dstar_deviation_from_baseline_mm_p5_p50_p95": [
+    -22.678944703960823,
+    0.0,
+    18.58426848778719
+  ],
+  "mc_dstar_abs_deviation_median_mm": 3.155561614146268,
+  "mc_share_dstar_changes_more_than_10mm": 0.2865,
+  "mc_dstar_p5_p95_by_baseline_class": {
+    "0": [
+      0.0,
+      0.0,
+      51.64108484301616
+    ],
+    "1": [
+      0.0,
+      19.534243989090868,
+      84.73926363150784
+    ],
+    "2": [
+      27.63739597697007,
+      58.10988792432071,
+      113.86717760994387
+    ]
+  },
+  "mc_kwh_per_m3_p5_p95": [
+    0.02729093426179404,
+    0.36540246804094106
+  ]
+}

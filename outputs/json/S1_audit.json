@@ -1,0 +1,59 @@
+{
+  "n": 10000,
+  "duplicates": 0,
+  "missing": 0,
+  "max_abs_pearson_between_numeric": 0.024824870907856542,
+  "max_cramers_v_between_categorical": 0.025029372965971776,
+  "rule": [
+    {
+      "condition": "Soil_Moisture < 25 %",
+      "points": 2
+    },
+    {
+      "condition": "Rainfall_mm < 300",
+      "points": 2
+    },
+    {
+      "condition": "Crop_Growth_Stage in {Flowering, Vegetative}",
+      "points": 2
+    },
+    {
+      "condition": "Temperature_C > 30",
+      "points": 1
+    },
+    {
+      "condition": "Wind_Speed_kmh > 10",
+      "points": 1
+    },
+    {
+      "condition": "Mulching_Used = No",
+      "points": 1
+    }
+  ],
+  "rule_classes": "score 0-3 -> Low; 4-6 -> Medium; 7-9 -> High",
+  "rule_accuracy_all_10000": 1.0,
+  "rule_confusion": [
+    [
+      5864,
+      0,
+      0
+    ],
+    [
+      0,
+      3800,
+      0
+    ],
+    [
+      0,
+      0,
+      336
+    ]
+  ],
+  "records_exactly_on_thresholds": {
+    "SM==25": 0,
+    "Rain==300": 0,
+    "T==30": 6,
+    "Wind==10": 3
+  },
+  "depth3_tree_text": "|--- Soil_Moisture <= 24.98\n|   |--- Crop_Growth_Stage_Sowing <= 0.50\n|   |   |--- Crop_Growth_Stage_Harvest <= 0.50\n|   |   |   |--- class: 1\n|   |   |--- Crop_Growth_Stage_Harvest >  0.50\n|   |   |   |--- class: 1\n|   |--- Crop_Growth_Stage_Sowing >  0.50\n|   |   |--- Mulching_Used_Yes <= 0.50\n|   |   |   |--- class: 1\n|   |   |--- Mulching_Used_Yes >  0.50\n|   |   |   |--- class: 0\n|--- Soil_Moisture >  24.98\n|   |--- Rainfall_mm <= 299.79\n|   |   |--- Crop_Growth_Stage_Vegetative <= 0.50\n|   |   |   |--- class: 1\n|   |   |--- Crop_Growth_Stage_Vegetative >  0.50\n|   |   |   |--- class: 1\n|   |--- Rainfall_mm >  299.79\n|   |   |--- Crop_Growth_Stage_Flowering <= 0.50\n|   |   |   |--- class: 0\n|   |   |--- Crop_Growth_Stage_Flowering >  0.50\n|   |   |   |--- class: 0\n"
+}
